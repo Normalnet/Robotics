@@ -1,10 +1,11 @@
+
 # ICS 556 Lab 1 - Movement Library (Encoder-Based)
 from vex import *
 import math
 
 brain = Brain()
 
-# ---------------- CONFIGURE THESE ----------------
+# ---------------- CONFIGURATION ----------------
 LEFT_PORT = Ports.PORT1
 RIGHT_PORT = Ports.PORT10
 
@@ -228,7 +229,6 @@ demo_triangle()
 
 brain.screen.new_line()
 brain.screen.print("Done")
-
 
 
 
